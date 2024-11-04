@@ -2,4 +2,5 @@ Undertow Servlet Example
 
 This is a simple standalone application based on the Undertow Examples.  It is used to test the OpenShift Java S2I image.
 
+oc new-app --name undertow-servlet -i java:openjdk-8-el7 https://github.com/winahyu/undertow-servlet.git
 
